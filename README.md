@@ -17,12 +17,12 @@ sequenceDiagram
 
 ```
     
-Attacker will send signal to bots in a loop
-spread command to bots end
-bots now activated for attack
-WebServer communicates to Firewall
-Detect abnormal traffic
-Firewall acts based on traffic patterns
-Traffic exceeds limit
-Blacklist offending IPs
-Allow safe traffic
+1) Attacker will send signal to bots in a loop
+2) spread command to bots end
+3) bots now activated for attack
+4) WebServer communicates to Firewall
+5) Detect abnormal traffic
+6) Firewall acts based on traffic patterns
+7) Traffic exceeds limit
+8) Blacklist offending IPs
+9) Allow safe traffic
